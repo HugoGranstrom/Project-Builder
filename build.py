@@ -52,8 +52,6 @@ while y == 0:
 	
 		os.makedirs(projectPath + "JS")
 		os.makedirs(projectPath + "CSS")
-		dirMaker("index.php")
-		fileMaker("hej.j")
 		os.makedirs(projectPath + "Res")	
 		open(projectPath + "index.html", "w")	
 		open(projectPath + "JS/main.js", "w")	
