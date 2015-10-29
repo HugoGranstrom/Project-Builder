@@ -49,19 +49,24 @@ while y == 0:
 
 		#creates files and folders
 		print("web choosen")
-	
-		os.makedirs(projectPath + "JS")
-		os.makedirs(projectPath + "CSS")
-		os.makedirs(projectPath + "Res")	
-		open(projectPath + "index.html", "w")	
-		open(projectPath + "JS/main.js", "w")	
-		open(projectPath + "CSS/style.css", "w")	
+
+        #Creating folders
+		dirMaker("JS")
+		dirMaker("CSS")
+		dirMaker("Res")
+
+		#Creating files
+		fileMaker("index.html")
+		fileMaker("JS/main.js")
+		fileMaker("CSS/style.css")
+		fileMaker("Res/delete.me")
 		y = 1
 
 
 	#elif projectType == "python":
 
 	else:
+		print("That kind of project is not available, check the README and github page for more info. \n Please choose another project type.")
 		continue
 		
 
