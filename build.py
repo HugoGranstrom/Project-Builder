@@ -48,8 +48,7 @@ while y == 0:
 	if projectType == "web":
 
 		#creates files and folders
-		print("web choosen")
-
+		
         #Creating folders
 		dirMaker("JS")
 		dirMaker("CSS")
