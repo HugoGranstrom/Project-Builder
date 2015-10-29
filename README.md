@@ -8,7 +8,7 @@ It can at the moment build these kinds of projects:
 ¤ Web projects (HTML,CSS,JS)
 ¤ More coming soon...
  
-At the moment it is a standalone program but I have had some plans on making a module of it as well so it can be integrated into other programs.
+At the moment it is a standalone program and a module in very early stage.
 I'm planning on porting it to other languages as well when it becomes a bit more mature. 
 Templates are coming soon as well.
 
